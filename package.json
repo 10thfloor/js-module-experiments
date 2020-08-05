@@ -1,0 +1,29 @@
+{
+  "name": "module-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.js",
+  "main": "dist/micro.js",
+  "module": "dist/micro.module.js",
+  "unpkg": "dist/micro.umd.js",
+  "scripts": {
+    "typescript": "tsc",
+    "rollup": "rollup -c",
+    "webpack": "webpack",
+    "micro": "microbundle --no-sourcemap",
+    "browserify": "browserify index.js -o browserify.bundle.js",
+    "parcel": "parcel build index.js --no-source-maps --no-content-hash --no-minify  --no-cache --out-file ./dist/parcel.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "microbundle": "^0.12.3",
+    "parcel": "^1.12.4",
+    "requirejs": "^2.3.6",
+    "rollup": "^2.23.0",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "files": ["./index.js"],
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "amd",
+    "target": "ES5",
+    "outDir": "./dist",
+    "outFile": "./dist/typescript.bundle.js"
+  }
+}
